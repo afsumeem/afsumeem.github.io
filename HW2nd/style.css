@@ -1,0 +1,279 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 15px;
+}
+.logo{
+
+	float: left;
+	width: 30%;
+}
+.logo img{
+	height: 130px;
+	width: 150px;
+}
+
+#navbar{
+	background-color: #f1f1f1;
+	height: 100%;
+	text-align: center;
+	padding-top: 30px;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+
+
+
+}
+#navbar a{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 40px;
+}
+
+#navbar a:hover{
+	background-color: green;
+	padding: 20px;
+	color: white;
+}
+
+#showcase{
+	background-image: url('./img/bg.jpg');
+	background-position: center center;
+	height: 350px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase p{
+	color: white;
+	font-size: 20px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+#main{
+	float: left;
+	width: 70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333;
+	color: #fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+
+
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 6px 15px;
+	border:none;
+}
+.button:hover{
+	background:blue;
+	color: white;
+}
+.clr{
+	clear: both;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+
+.para1{
+	background-color: grey;
+	color: black;
+	border: 1px blue solid;
+	width: 40%;
+	text-align: center;
+	color: white;
+
+	
+}
+.para1 h2{
+	color: green;
+	text-decoration: uppercase;
+
+}
+
+.para2{
+	border: 2px dotted #acc;
+	width: 40%;
+}
+.para2 h2{
+	text-align: center;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.table-t tr th{
+	border:1px solid black;
+	text-align: center;
+	padding: 8px;
+}
+
+.table-t tr td{
+	border:1px solid black;
+	text-align: center;
+	padding: 8px;
+	color: blue;
+}
+
+
+.categories h2{
+	text-align: center;
+
+}
+
+.categories ul{
+	list-style: square;
+
+}
+
+.categories li{
+	padding-bottom: 8px;
+	border-bottom: dotted 1px #333; 
+}
+
+.my-form{
+	padding: 30px;
+}
+
+.form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 5px;
+	width: 40%;
+}
+
+.my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 6px 15px;
+	border:none;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border:1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+#main-block{
+	float: left;
+	width: 70%
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color:#333;
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+	background-image:url('./img/Hello.jpg');
+	
+}
+
+.p-box h2{
+	position: absolute;
+	top: 40px;
+	left: 200px; 
+}
+.p-box h3{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+
+
+.fix-me{
+	position: fixed;
+	top: 500px;
+}
+
+.my-list li:first-child{
+	background-color: red;
+	color: black;
+
+}
+.my-list li:nth-child(3){
+	background-color: yellow;
+}
+.my-list li:nth-child(even){
+	background-color: pink;
+}
+.my-list li:nth-child(5){
+	background-color: grey;
+}
+
+#main-footer{
+	background:#333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
